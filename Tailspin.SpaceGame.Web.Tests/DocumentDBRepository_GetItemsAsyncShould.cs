@@ -43,7 +43,7 @@ namespace Tests
                 queryPredicate, // the predicate defined above
                 score => 1, // we don't care about the order
                 PAGE,
-                MAX_RESULTS
+                MAX_RESULTS 
             );
             IEnumerable<Score> scores = scoresTask.Result;
 
